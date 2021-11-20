@@ -1,0 +1,23 @@
+{
+    "name": "Digikala Incredible Offers Price",
+    "description": "Display Digikala.com Incredible Offers Only Application Prices",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["*://*.digikala.com/*","*://digikala.com/*"],
+        "js": ["content-script.js"],
+        "run_at": "document_start"
+      }
+    ],
+    "web_accessible_resources": [
+        {
+          "resources": ["script.js"],
+          "matches": ["*://*.digikala.com/*","*://digikala.com/*"]
+        }
+      ]
+  }
