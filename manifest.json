@@ -7,6 +7,7 @@
       "service_worker": "background.js"
     },
 
+    "host_permissions": ["*://*.digikala.com/*","*://digikala.com/*"],
     "content_scripts": [
       {
         "matches": ["*://*.digikala.com/*","*://digikala.com/*"],
