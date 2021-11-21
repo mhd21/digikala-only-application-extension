@@ -1,6 +1,6 @@
 {
-    "name": "Digikala Incredible Offers Price",
-    "description": "Display Digikala.com Incredible Offers Only Application Prices",
+    "name": "Digikala Digikala Application Only Prices",
+    "description": "Display Digikala Application Only Prices",
     "version": "0.0.0.1",
     "manifest_version": 3,
     "background": {
