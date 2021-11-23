@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
           });
           observer.observe(document.body, {attributes: true, childList: true, subtree: true});
           document.body.addEventListener('dom-changed', e => {
-              console.log('gggg');
             const elements = document.getElementsByClassName('c-price__application-only-user');
             if(elements.length > 0){
                 for(let i = 0; i < elements.length; i++) {
